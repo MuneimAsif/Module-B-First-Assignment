@@ -1,64 +1,6 @@
-// var mobiles = {
-//     apple:{
-//        iphone12:{
-//          camera:'48megaPx',
-//          ram:'4gb',
-//          rom:'64gb'
-//        },
-//        iphone13:{
-//          camera:'48megaPx',
-//          ram:'6gb',
-//          rom:'128gb'
-//        },
-//        iphone14:{
-//          camera:'48megaPx',
-//          ram:'8gb',
-//          rom:'256gb'
-//        },
-//     },
-//     samsung:{
-//        s6:{
-//          camera:'48megaPx',
-//          ram:'3gb',
-//          rom: '32gb',
-//        },
-//        s6Edge:{
-//          camera:'48megaPx',
-//          ram:'4gb',
-//          rom: '64gb',
-//        },
-//        s7:{
-//          camera:'48megaPx',
-//          ram:'6gb',
-//          rom: '128gb',
-//        },
-//        s7Edge:{
-//          camera:'48megaPx',
-//          ram:'8gb',
-//          rom: '256gb',
-//        },
-//     },
-//     vivo:{
-//       y85:{
-//          camera:'48megaPx',
-//          ram:'6gb',
-//          rom:'128gb',
-//       },
-//       y85A:{
-//          camera:'48megaPx',
-//          ram:'8gb',
-//          rom:'256gb',
-//       },
-//     },
-// }
-var div = document.getElementById('div')
+
 var company = document.getElementById('company')
 var model = document.getElementById('model')
-// function render(){
-//   if(mobiles.hasOwnProperty(company.value) && mobiles[company].hasOwnProperty(model.value)){
-//      console.log('hello')
-// }
-// }
 
 var mobileModels = {
   "samsung": {
